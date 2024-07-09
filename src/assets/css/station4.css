@@ -1,0 +1,42 @@
+body {
+    background-color: #C4C4C4;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card__img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card__title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .card__description {
+    color: #888;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
