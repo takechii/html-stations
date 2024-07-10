@@ -1,50 +1,57 @@
+/* 全体の背景色を灰色に設定 */
 body {
-    background-color: #C4C4C4;
-  }
-  
-  .header {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* カード間のスペースを確保 */
-  }
-  
-  .card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    max-width: 300px;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .card__img-top {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .card__title {
-    font-size: 1.5em;
-    margin: 10px 0;
-    color: #000000; /* コントラスト値を十分に大きくするために黒色に設定 */
-  }
-  
-  .card__description {
-    color: #888;
-    font-size: 0.9em;
-    margin: 5px 0;
-  }
-  
+  background-color: #C4C4C4;
+}
+
+/* ヘッダーのスタイル設定 */
+.header {
+  background-color: #ffffff; /* 白色の背景 */
+  padding: 20px; /* 内側の余白 */
+  text-align: center; /* 中央揃え */
+}
+
+/* フッターのスタイル設定 */
+.footer {
+  background-color: #ffffff; /* 白色の背景 */
+  padding: 20px; /* 内側の余白 */
+  text-align: center; /* 中央揃え */
+}
+
+/* メインコンテンツ領域のスタイル設定 */
+.main-content {
+  display: flex; /* フレックスボックスを使用 */
+  justify-content: center; /* 要素を中央揃え */
+  align-items: center; /* 要素を中央揃え */
+  gap: 20px; /* カード間のスペースを確保 */
+}
+
+/* カードのスタイル設定 */
+.card {
+  background-color: #ffffff; /* 白色の背景 */
+  border-radius: 10px; /* 角丸 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ドロップシャドウ */
+  margin: 20px; /* 外側の余白 */
+  max-width: 300px; /* 最大幅 */
+  overflow: hidden; /* 内容がはみ出たときに隠す */
+  text-align: center; /* 中央揃え */
+}
+
+/* カード内の画像のスタイル設定 */
+.card__img-top {
+  max-width: 100%; /* 最大幅100% */
+  height: auto; /* 高さ自動調整 */
+}
+
+/* カードのタイトルのスタイル設定 */
+.card__title {
+  font-size: 1.5em; /* フォントサイズ */
+  margin: 10px 0; /* 外側の余白 */
+  color: #000000; /* テキスト色を黒に設定 */
+}
+
+/* カードの説明文のスタイル設定 */
+.card__description {
+  color: #888; /* テキスト色を灰色に設定 */
+  font-size: 0.9em; /* フォントサイズ */
+  margin: 5px 0; /* 外側の余白 */
+}
